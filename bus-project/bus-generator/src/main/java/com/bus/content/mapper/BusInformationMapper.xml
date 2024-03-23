@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bus.content.mapper.BusInformationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.bus.content.model.po.BusInformation">
+        <id column="informid" property="informid" />
+        <result column="informmodel" property="informmodel" />
+        <result column="informfactory" property="informfactory" />
+        <result column="informtype" property="informtype" />
+        <result column="informlength" property="informlength" />
+        <result column="informwidth" property="informwidth" />
+        <result column="informheight" property="informheight" />
+        <result column="informseat" property="informseat" />
+        <result column="informmainseat" property="informmainseat" />
+        <result column="informgrade" property="informgrade" />
+        <result column="informfuel" property="informfuel" />
+        <result column="informremark" property="informremark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        informid, informmodel, informfactory, informtype, informlength, informwidth, informheight, informseat, informmainseat, informgrade, informfuel, informremark
+    </sql>
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bus.content.mapper.BusLineMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.bus.content.model.po.BusLine">
+        <id column="line_id" property="lineId" />
+        <result column="line_name" property="lineName" />
+        <result column="line_beginlocation" property="lineBeginlocation" />
+        <result column="line_begincode" property="lineBegincode" />
+        <result column="line_endlocation" property="lineEndlocation" />
+        <result column="line_endcode" property="lineEndcode" />
+        <result column="line_linecount" property="lineLinecount" />
+        <result column="line_highin" property="lineHighin" />
+        <result column="line_highout" property="lineHighout" />
+        <result column="line_area" property="lineArea" />
+        <result column="line_highcount" property="lineHighcount" />
+        <result column="line_mainstops" property="lineMainstops" />
+        <result column="line_stops" property="lineStops" />
+        <result column="line_remark" property="lineRemark" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        line_id, line_name, line_beginlocation, line_begincode, line_endlocation, line_endcode, line_linecount, line_highin, line_highout, line_area, line_highcount, line_mainstops, line_stops, line_remark
+    </sql>
+
+</mapper>
