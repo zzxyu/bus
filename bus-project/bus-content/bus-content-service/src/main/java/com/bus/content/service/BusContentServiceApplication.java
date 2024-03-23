@@ -1,0 +1,13 @@
+package com.bus.content.service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BusContentServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BusContentServiceApplication.class, args);
+    }
+
+}

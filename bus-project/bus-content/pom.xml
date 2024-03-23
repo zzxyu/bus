@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>bus-parent</artifactId>
+        <groupId>com.bus</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../bus-parent</relativePath>
+    </parent>
+    <groupId>com.bus</groupId>
+    <artifactId>bus-content</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>bus-content</name>
+    <description>bus-content</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>bus-content-api</module>
+        <module>bus-content-model</module>
+        <module>bus-content-service</module>
+    </modules>
+</project>
